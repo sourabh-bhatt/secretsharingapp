@@ -50,7 +50,6 @@ The project follows a standard React project structure:
 |-- components   # Reusable React components
 |-- App.js       # Main entry point for the application
 |-- index.js     # Entry file for rendering the React app
-</div>
 ```
 
 ## User Authentication System
