@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# React Secrets App🔐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The React Secrets App is a dynamic web application showcasing proficiency in React.js. It emphasizes key aspects such as user authentication, secrets posting, and responsive design.
 
-## Available Scripts
+## Features
+- **User Authentication System:**
+  - Secure authentication with user registration, login, and password recovery functionalities.
 
-In the project directory, you can run:
+- **Secrets Posting Section:**
+  - User-friendly home screen featuring a section for posting secrets.
+  - Each user can share one secret message.
+  - Display of secrets shared by other users without revealing identities.
 
-### `npm start`
+- **Responsiveness Across Devices:**
+  - Ensured responsiveness on various devices such as tablets, desktops, and phones.
+  - Utilized Tailwind CSS for efficient responsiveness.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Optional Enhancement - OAuth Google Integration:**
+  - Successfully implemented Auth0(octa) by OAuth Google integration for seamless user authentication.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- React.js
+- Tailwind CSS
+- Google OAuth for enhanced user experience
 
-### `npm test`
+## Setup
+1. Clone the repository: `git clone https://github.com/sourabh-bhatt/secretsharingapp.git`
+2. Navigate to the project directory: `cd secretsharingapp`
+3. Install dependencies: `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Run
+1. Start the development server: `npm start`
+2. Open your browser and go to `http://localhost:3000`
 
-### `npm run build`
+## Project Structure
+The project follows a standard React project structure:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+/src
+|-- components   # Reusable React components
+|-- App.js       # Main entry point for the application
+|-- index.js     # Entry file for rendering the React app
+</div>
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## User Authentication System
+The user authentication system employs a secure Auth0 by octa which basically runs on OAuth by Google. Registration, login, and password recovery functionalities are implemented using industry best practices.
 
-### `npm run eject`
+## Secrets Posting Section
+Users can post secrets on the secret screen as shown in home page. Each user is allowed to share one secret message. The secrets of other users are displayed anonymously.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Responsiveness Across Devices
+The application ensures responsiveness across various devices through the use of Tailwind CSS. The layout adapts seamlessly to tablets, desktops, and phones.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Security Considerations
+- Passwords are securely hashed by google, even though they are not shared at all. OAuth is most secure integration.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Collaboration and Acknowledgments
+This project was developed independently with no external collaborations. All code is original written by Sourabh Bhatt.
 
-## Learn More
+## Contact
+- LinkedIn: [Sourabh Bhatt](https://linkedin.com/in/sourabh-bhatt)
+- Twitter: [Sourabh Bhatt](https://twitter.com/sourabh__bhatt)
+- GitHub: [Sourabh Bhatt](https://github.com/sourabh-bhatt)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to reach out for any further communication or questions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
