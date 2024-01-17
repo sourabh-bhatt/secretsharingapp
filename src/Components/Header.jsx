@@ -7,7 +7,7 @@ const Header = () => {
 
   const AuthenticatedLinks = () => (
     <>
-      <li className="text-base uppercase cursor-pointer hidden md:block">
+      <li className="text-base uppercase cursor-pointer">
         <NavLink to="/dashboard" className="no-underline">
           Secrets
         </NavLink>
@@ -18,13 +18,13 @@ const Header = () => {
       >
         Log Out
       </li>
-      <div className="ml-4 hidden md:block">
+      <li className="ml-4">
         <img
           src={user?.picture}
           alt=""
           className="rounded-full h-8 w-8 object-cover"
         />
-      </div>
+      </li>
     </>
   );
 
